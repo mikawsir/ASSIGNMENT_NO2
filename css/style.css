@@ -98,5 +98,19 @@
 
 iframe {
     width: 100%;
-    
+
+}
+
+.host {
+    width: 100%;
+    height: 280px;
+    background: #351165;
+
+}
+.pb{
+    height:150px;
+    width: 100%;
+}
+footer{
+    background-image: url(../photos/images/footer-bg.png);
 }
