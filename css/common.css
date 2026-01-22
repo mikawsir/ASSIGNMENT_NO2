@@ -27,15 +27,3 @@
     -webkit-background-clip: text;
     background-clip: text;
 }
-.header-bg{
-    background-image: url(../photos/images/hero-bg.png);
-}
-.color-green{
-    color: #00FF88;
-}
-.border-green{
-    background: #00FF88;
-}
-.why{
-    background-color:#230E3D;
-}

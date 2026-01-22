@@ -1,0 +1,70 @@
+.header-bg {
+    background-image: url(../photos/images/hero-bg.png);
+}
+
+.color-green {
+    color: #00FF88;
+}
+
+.border-green {
+    background: #00FF88;
+}
+
+.why {
+    background-color: #230E3D;
+}
+
+.audio {
+    grid-area: audio;
+
+}
+
+.mobile {
+    grid-area: mobile;
+
+}
+
+.global {
+    grid-area: global;
+
+}
+
+.exclusive {
+    grid-area: exclusive;
+
+}
+
+.rich {
+
+    grid-area: rich;
+
+}
+
+.audio,
+.rich,
+.mobile,
+.global,
+.exclusive {
+    background: #351165;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 90%;
+    
+}
+.why-grid {
+    display: grid;
+    height: 1083px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "audio audio audio mobile mobile mobile mobile mobile"
+        "audio audio audio global global global global global "
+        "exclusive exclusive exclusive exclusive exclusive rich rich rich";
+}
