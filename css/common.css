@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+:root {
+    --liner-gradient: linear-gradient(45deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    --praimary-color:#1A0B2E;
+}
+.button{
+    background: var(--liner-gradient);
+}
+.common-color
+{
+    background: var(--praimary-color);
+}
+
+.mic{
+    background: var(--liner-gradient);
+}
+.logo-liner {
+    background: var(--liner-gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.header-bg{
+    background-image: url(../photos/images/hero-bg.png);
+}
+.color-green{
+    color: #00FF88;
+}
+.border-green{
+    background: #00FF88;
+}
+.why{
+    background-color:#230E3D;
+}
