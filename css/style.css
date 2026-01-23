@@ -75,7 +75,23 @@
         "exclusive exclusive exclusive exclusive exclusive rich rich rich"
     ;
 }
-
+@media (max-width: 576px) {
+    .why-grid {
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        gap: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas:
+            "audio"
+            "mobile"
+            "global "
+            "exclusive"
+            "rich"
+        ;
+    }
+}
 .Featured {
     background: #1A0B2E;
 }
