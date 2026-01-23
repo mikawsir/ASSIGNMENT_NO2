@@ -78,6 +78,7 @@
 @media (max-width: 576px) {
     .why-grid {
         display: grid;
+        height: 1409px;
         width: 90%;
         margin: 0 auto;
         gap: 30px;
