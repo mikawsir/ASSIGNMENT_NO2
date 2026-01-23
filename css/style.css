@@ -88,9 +88,13 @@
     background: #351165;
 
 }
+
 .pb {
     height: 150px;
     width: 100%;
+}
+.footer-png {
+    background-image: url(../photos/images/footer-bg.png);
 }
 
 @media (max-width: 576px) {
@@ -110,10 +114,12 @@
             "rich"
         ;
     }
-.pb {
-    height: 50px;
-    width: 100%;
-}
+
+    .pb {
+        height: 50px;
+        width: 100%;
+    }
+
     .grid-frames {
         display: grid;
         gap: 30px;
@@ -126,6 +132,14 @@
         flex-direction: column-reverse;
         background: #351165;
 
+    }
+
+    .footer-png {
+       background-repeat: no-repeat;
+       background-position-x: center;
+       height: 248px;
+       background-size: 105%;
+        background-image: url(../photos/Image.png);
     }
 }
 
@@ -150,9 +164,3 @@ iframe {
 }
 
 
-
-
-
-.footer-png{
-    background-image: url(../photos/images/footer-bg.png);
-}
