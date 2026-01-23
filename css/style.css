@@ -75,6 +75,12 @@
         "exclusive exclusive exclusive exclusive exclusive rich rich rich"
     ;
 }
+
+.grid-frames {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
 @media (max-width: 576px) {
     .why-grid {
         display: grid;
@@ -92,16 +98,16 @@
             "rich"
         ;
     }
+    .grid-frames {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
 }
 .Featured {
     background: #1A0B2E;
 }
 
-.grid-frames {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-}
 
 .fame {
     background: #351165;
