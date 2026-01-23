@@ -95,6 +95,8 @@
 }
 .footer-png {
     background-image: url(../photos/images/footer-bg.png);
+    background: cover;
+    position: center;
 }
 
 @media (max-width: 576px) {
